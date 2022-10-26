@@ -1,0 +1,188 @@
+@import url("@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*===================================================*/
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("fonts/Roboto-Regular.svg") format("svg"), url("fonts/Roboto-Regular.ttf") format("truetype"), url("fonts/Roboto-Regular.woff") format("woff"), url("fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("fonts/Roboto-Bold.svg") format("svg"), url("fonts/Roboto-Bold.ttf") format("truetype"), url("fonts/Roboto-Bold.woff") format("woff"), url("fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.massage {
+  text-align: center;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FBFBFB;
+  font-weight: 400;
+  letter-spacing: 2px;
+  background: #000;
+  height: 29px;
+  padding: 7px 0 7px 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 66px;
+  padding-left: 11px;
+  padding-right: 20px;
+}
+header .nav-panel ul {
+  display: flex;
+}
+header .nav-panel ul li {
+  margin-right: 23px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 1px;
+}
+header .nav-panel ul :last-child {
+  margin-right: 0px;
+}
+header .nav-panel ul :hover {
+  text-decoration: underline;
+  text-shadow: 0 0 2px rgba(148, 148, 148, 0.35);
+}
+header .account :first-child {
+  margin-right: 11px;
+}
+header .account img {
+  cursor: pointer;
+}
+header .logo {
+  cursor: pointer;
+}
+
+.main-1 {
+  position: relative;
+  color: #000000;
+}
+.main-1 img {
+  width: 100%;
+}
+.main-1 .welcome-to-boosted {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 53px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  align-items: center;
+}
+.main-1 .welcome-to-boosted h1 {
+  font-size: 44px;
+  line-height: 51px;
+}
+.main-1 .welcome-to-boosted p {
+  margin-top: 14px;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 1px;
+}
+.main-1 .welcome-to-boosted .bottoms-boosted {
+  margin-top: 22px;
+}
+.main-1 .welcome-to-boosted .bottoms-boosted a {
+  display: inline-block;
+  width: 201px;
+  height: 33px;
+  background: #FF4A32;
+  border-radius: 35px;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+.main-1 .welcome-to-boosted .bottoms-boosted a:last-child {
+  margin-right: 0px;
+}
+.main-1 .welcome-to-boosted .bottoms-boosted a:hover {
+  background: #d53e2a;
+}
