@@ -69,13 +69,13 @@ h1, h2, h3, h4, h5, h6 {
 /*===================================================*/
 @font-face {
   font-family: "Roboto-Regular";
-  src: url("fonts/Roboto-Regular.svg") format("svg"), url("fonts/Roboto-Regular.ttf") format("truetype"), url("fonts/Roboto-Regular.woff") format("woff"), url("fonts/Roboto-Regular.woff2") format("woff2");
+  src: url("../fonts/Roboto-Regular.svg") format("svg"), url("../fonts/Roboto-Regular.ttf") format("truetype"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto-Bold";
-  src: url("fonts/Roboto-Bold.svg") format("svg"), url("fonts/Roboto-Bold.ttf") format("truetype"), url("fonts/Roboto-Bold.woff") format("woff"), url("fonts/Roboto-Bold.woff2") format("woff2");
+  src: url("../fonts/Roboto-Bold.svg") format("svg"), url("../fonts/Roboto-Bold.ttf") format("truetype"), url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
@@ -185,4 +185,91 @@ header .logo {
 }
 .main-1 .welcome-to-boosted .bottoms-boosted a:hover {
   background: #d53e2a;
+}
+
+.black-stripe {
+  height: 83px;
+  widows: 100%;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 190px 0 190px;
+}
+
+.main-2 .text__main-2 {
+  text-align: center;
+  align-items: center;
+}
+.main-2 .text__main-2 h2 {
+  margin-top: 52px;
+  font-size: 32px;
+  line-height: 36px;
+}
+.main-2 .text__main-2 p {
+  margin-top: 17px;
+  font-size: 15px;
+  line-height: 19px;
+}
+.main-2 .text__main-2 .grey-line {
+  background: #CFCFCF;
+  width: 70px;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.main-2 .main-2__img {
+  display: flex;
+  justify-content: center;
+  margin: 45px 0 20px 0;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+.main-2 .main-2__img .img__boards {
+  position: relative;
+  margin-right: 10px;
+}
+.main-2 .main-2__img .img__boards .img__boards-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  color: #CFCFCF;
+  font-size: 25px;
+  line-height: 30px;
+}
+.main-2 .main-2__img .img__boards .img__boards-text a {
+  font-size: 18px;
+  line-height: 23px;
+  color: #CFCFCF;
+}
+.main-2 .main-2__img .img__boards .img__boards-text a:hover {
+  color: #fff;
+}
+.main-2 .main-2__img .img__revs {
+  position: relative;
+  margin-left: 10px;
+}
+.main-2 .main-2__img .img__revs .img__revs-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  color: #CFCFCF;
+  font-size: 25px;
+  line-height: 30px;
+}
+.main-2 .main-2__img .img__revs .img__revs-text a {
+  font-size: 18px;
+  line-height: 23px;
+  color: #CFCFCF;
+}
+.main-2 .main-2__img .img__revs .img__revs-text a:hover {
+  color: #fff;
 }
