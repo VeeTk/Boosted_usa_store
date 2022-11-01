@@ -100,7 +100,7 @@ main {
   text-align: center;
   font-size: 12px;
   line-height: 15px;
-  color: #FBFBFB;
+  color: #fbfbfb;
   font-weight: 400;
   letter-spacing: 2px;
   background: #000;
@@ -134,14 +134,29 @@ header .nav-panel ul :hover {
   text-decoration: underline;
   text-shadow: 0 0 2px rgba(148, 148, 148, 0.35);
 }
+header .nav-panel ul :hover {
+  position: relative;
+  top: -3px;
+}
 header .account :first-child {
   margin-right: 11px;
 }
 header .account img {
   cursor: pointer;
 }
+header .account img:hover {
+  position: relative;
+  top: -3px;
+}
+header .account img:active {
+  top: -6px;
+}
 header .logo {
   cursor: pointer;
+}
+header .logo:hover {
+  position: relative;
+  top: -3px;
 }
 
 .main-1 {
@@ -179,7 +194,7 @@ header .logo {
   display: inline-block;
   width: 201px;
   height: 33px;
-  background: #FF4A32;
+  background: #ff4a32;
   border-radius: 35px;
   color: #fff;
   text-align: center;
@@ -217,7 +232,7 @@ header .logo {
   line-height: 19px;
 }
 .main-2 .text__main-2 .grey-line {
-  background: #CFCFCF;
+  background: #cfcfcf;
   width: 70px;
   height: 2px;
   margin: 0 auto;
@@ -319,7 +334,7 @@ header .logo {
   line-height: 19px;
   width: 201px;
   height: 33px;
-  background-color: #FF4A32;
+  background-color: #ff4a32;
   border-radius: 35px;
   color: #fff;
   text-align: center;
@@ -357,7 +372,7 @@ header .logo {
   line-height: 22px;
   width: 101px;
   height: 33px;
-  background-color: #FF4A32;
+  background-color: #ff4a32;
   border-radius: 35px;
   color: #fff;
   text-align: center;
@@ -426,12 +441,21 @@ header .logo {
 .youtube__body :last-child {
   margin-left: 10px;
 }
+.youtube__body img {
+  cursor: pointer;
+}
+.youtube__body img:hover {
+  position: relative;
+  top: -8px;
+  box-shadow: 0px 6px 5px 0px rgba(37, 37, 37, 0.92);
+}
 
 .accessories__body {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 64px;
+  margin-bottom: 50px;
 }
 .accessories__title {
   font-weight: 700;
@@ -448,7 +472,7 @@ header .logo {
   bottom: 0;
   height: 2px;
   left: 50%;
-  background-color: #CFCFCF;
+  background-color: #cfcfcf;
   margin: 0px 0px 0px -25px;
 }
 .accessories__pannel {
@@ -482,9 +506,12 @@ header .logo {
   text-align: center;
 }
 .item-accessories__name {
-  color: #FF4A32;
+  color: #ff4a32;
   font-size: 15px;
   line-height: 18px;
+}
+.item-accessories__name:hover {
+  text-decoration: underline;
 }
 .item-accessories__price {
   color: #000000;
@@ -495,5 +522,128 @@ header .logo {
   color: rgba(0, 0, 0, 0.3);
 }
 .item-accessories .red-price span {
-  color: #FF2121;
+  color: #ff2121;
+}
+.item-accessories:hover {
+  position: relative;
+  top: -15px;
+  cursor: pointer;
+}
+
+.advantages {
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  padding: 15px 0 35px 0;
+  height: 308px;
+}
+
+.item-advantages {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 30px;
+  padding: 20px 0px;
+}
+.item-advantages__title {
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 36px;
+}
+.item-advantages__text {
+  margin-top: 25px;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.about {
+  display: flex;
+  padding: 0 130px;
+  height: 329px;
+  background: #f7f7f7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-between;
+  color: #000;
+}
+
+.item-about {
+  display: flex;
+  flex-direction: column;
+}
+.item-about__title {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.item-about__links {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  line-height: 21px;
+}
+.item-about__links a {
+  color: #000;
+  font-size: 13px;
+  line-height: 21px;
+}
+.item-about__links a:hover {
+  text-decoration: underline;
+}
+.item-about__text {
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 21px;
+}
+.item-about__adress {
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 21px;
+}
+.item-about img:hover {
+  position: relative;
+  top: -5px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 130px;
+  height: 70px;
+  background-color: #fff;
+  align-items: center;
+}
+footer .footer-left {
+  font-size: 13px;
+  line-height: 19px;
+  color: #000;
+}
+footer .footer-left span {
+  font-size: 12px;
+  color: #ff4a32;
+  position: relative;
+  top: -1px;
+  cursor: pointer;
+}
+footer .footer-left span:hover {
+  text-decoration: underline;
+}
+footer .footer-left span:hover:last-child {
+  text-decoration: none;
+}
+footer .footer-right {
+  display: flex;
+  align-items: center;
+}
+footer .footer-right img {
+  margin: 0 2px;
+}
+footer .footer-right img:hover {
+  position: relative;
+  top: -3px;
+  box-shadow: 0px 2px 2px 0px rgba(37, 37, 37, 0.8);
 }
